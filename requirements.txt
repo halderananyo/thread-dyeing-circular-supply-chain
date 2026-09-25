@@ -1,0 +1,16 @@
+pandas
+numpy
+scipy
+scikit-learn
+xgboost
+shap
+joblib
+matplotlib
+seaborn
+openpyxl
+
+# Reverse-logistics MILP optimization (src/reverse_logistics_milp.py, src/scenario_analysis.py)
+# Requires IBM CPLEX (Community Edition works for small instances; a full license
+# is needed for larger networks). See: https://www.ibm.com/products/ilog-cplex-optimization-studio
+docplex
+cplex

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# CPLEX / solver logs
+*.log
+*.lp
+cplex.log
+
+# Local outputs (keep the repo lean; commit only final figures/tables you want to share)
+outputs/
+*.tmp
+
+# Node (if you build the dashboard/ locally)
+node_modules/
+dist/
